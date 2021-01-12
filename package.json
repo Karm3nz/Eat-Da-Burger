@@ -1,0 +1,16 @@
+{
+  "name": "eat-da-burger",
+  "version": "1.0.0",
+  "description": "a restaurant app that lets users input the names of burgers they'd like to eat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carmen Hui",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  }
+}
