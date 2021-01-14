@@ -1,11 +1,44 @@
 {{!-- image --}}
 
 {{!-- Eat-Da-Burger! --}}
+<h1>Eat-Da-Burger!</h1>
 
 {{!-- Two columns for burgers --}}
+<div class="container">
+    <div class="row">
+        {{!-- Column One --}}
+        <div class="col">
+            <h2>Burgers Remaining!</h2>
+                {{#each burgers}}
+                {{#unless devoured}}
+                    {{> burgers/burger-block devour=true}}
+                {{/unless}}
+                {{/each}}
+        </div>
+
+        {{!-- Column Two --}}
+        <div class="col">
+            <h2>Burgers Devoured!</h2>
+            {{#each burgers}}
+            {{#if devoured}}    
+                {{> burgers/burger-block devour=false}}                 
+            {{/if}}
+            {{/each}}
+        </div>
+    </div>
+</div>
 
 {{!-- Text input --}}
 
 {{!-- Submit Button --}}
 
+<form id="create-form">
+    <div>
+        <input type="text" id="ca" name="name">
+    </div>
+    <div>
+        <button type="submit" >Add Burger!</button>
+    </div>  
+</form>
 {{!-- Enter a burger you want to eat and Click the "Submit" button. --}}
+<h3>Enter a burger you want to eat and Click the "Submit" button.</h3>
