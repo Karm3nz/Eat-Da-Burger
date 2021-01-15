@@ -9,35 +9,31 @@
 
 {{!-- Two columns for burgers --}}
 <div class="container mainContent">
-    <div class="row">
+    <div class="row shadow-lg p-1 mb-5 bg-dark rounded">
         {{!-- Column One --}}
-        <div class="col">
-            <h2>Burgers Remaining!</h2>
-                <div class="columnOne">
-                    {{#each burgers}}
-                    {{#unless devoured}}
+        <div class="col-6 columnOne">
+            <h2 class="text-center">Burgers Remaining!</h2>
+                {{#each burgers}}
+                {{#unless devoured}}
                     <ul>
                         {{id}}) {{burger_name}}
                     <button class="devour-burger" data-id="{{id}}">Devour It!</button>
                     </ul>
-                    {{/unless}}
-                    {{/each}}
-                </div>
+                {{/unless}}
+                {{/each}}
         </div>
 
         {{!-- Column Two --}}
-        <div class="col">
-            <h2>Burgers Devoured!</h2>
+        <div class="col-6 columnTwo">
+            <h2 class="text-center">Burgers Devoured!</h2>
 
-            <div class="columnTwo">
-                {{#each burgers}}
-                {{#if devoured}}    
-                    <ul>
-                      {{id}}) {{burger_name}} 
-                    </ul>              
-                {{/if}}
-                {{/each}}
-            </div>
+            {{#each burgers}}
+            {{#if devoured}}    
+                <ul>
+                  {{id}}) {{burger_name}} 
+                </ul>              
+            {{/if}}
+            {{/each}}
         </div>
     </div>
 </div>
