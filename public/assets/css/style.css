@@ -20,18 +20,17 @@ body {
 }
 
 .mainContent{
-  margin-left: 15%;
+  margin-left: 13%;
 }
 
 
 .columnOne, .columnTwo {
   background-color: rgb(226, 201, 154);
-  
 }
 
 
 #create-form{
-  margin-left: 45%;
+  margin-left: 42%;
   margin-top: 25px;
   margin-bottom: 25px;
 }
