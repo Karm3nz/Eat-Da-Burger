@@ -14,13 +14,21 @@ h1 {
 }
 
 body {
+  font-family: 'Yusei Magic', sans-serif;
   background-color: orange;
   color: black;
 }
 
 .mainContent{
-  margin-left: 20%;
+  margin-left: 15%;
 }
+
+
+.columnOne, .columnTwo {
+  background-color: rgb(226, 201, 154);
+  
+}
+
 
 #create-form{
   margin-left: 45%;
