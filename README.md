@@ -4,6 +4,10 @@
 
 This is a burger logger application utilizing MySQL, Node, Express, Handlebars and ORM!
 
+
+![Application Screenshot](public/assets/img/screenshot.png)
+
+
 ### Directory Structure: 
 ```
 .
@@ -54,13 +58,21 @@ If your README is very long, add a table of contents to make it easy for users t
 ## Installation 
 💾
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+* Make sure to have a text editor of your choice installed (the example below shows "Visual Studio Code").
+* Install node.js here: https://nodejs.org/en/download/
+* From the repository download zip file of the repository
+* Inside your computer's command-line interface, navigate into the file "develop".
+* In the command-line "npm install" to install dependencies from the json package
+* Run the application by typing in the command line "node server.js"
 
 
 ## Usage 
 🔧
 
-Provide instructions and examples for use. Include screenshots as needed. 
+![Application Screenshot](public/assets/img/screenshot.png)
+* Add burgers by typing into the text input field
+* User can choose to devour the burgers by clicking the "devour" button
+
 
 
 ## Credits 
@@ -69,34 +81,29 @@ Provide instructions and examples for use. Include screenshots as needed.
 * Burger Icon: https://www.flaticon.com/free-icon/burger_877951?term=burger&related_id=877951
 
 
-
 ## License 
 🛡️
 
-The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
+MIT License
 
+Copyright (c) [2020] [Carmen Hui]
 
----
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## Badges 
-✅
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-![badge](https://img.shields.io/badge/license-MIT-green)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-
-## Contributing
-
-If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
-
-
----
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
